@@ -12,6 +12,12 @@
     "48": "bookmark-48.png",
     "128": "bookmark-128.png"
   },
+  "background": {
+    "scripts": [
+      "js/background.js",
+      "js/vendor.js"
+    ]
+  },
   "permissions": [
     "storage",
     "history",
