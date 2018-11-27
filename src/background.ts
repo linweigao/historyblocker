@@ -21,8 +21,8 @@ chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {
 })
 
 function removeUrlInHistory(url?: string) {
-  if (url && url.toLowerCase().startsWith('https://www.pornhub.com')) {
-    chrome.history.search({ text: 'https://www.pornhub.com' }, results => {
+  if (url && url.toLowerCase().startsWith('https://www.msn.com')) {
+    chrome.history.search({ text: 'https://www.msn.com' }, results => {
       if (results && results.length > 0) {
         console.log(results)
         results.forEach(result => {
